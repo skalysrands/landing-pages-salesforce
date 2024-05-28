@@ -1,0 +1,137 @@
+%%[
+    Set @firstName = RequestParameter('firstName')
+    Set @email = RequestParameter('email')
+    Set @phone = RequestParameter('phone')
+    
+    IF Length(@email) != 0 and Length(@firstName) != 0 and Length(@phone) != 0 THEN  
+    
+    Set @phone = Replace(Replace(@phone, '(', ''), ')', '')
+    Set @phone = Replace(@phone, '-', '')
+    Set @phone = Replace(@phone, ' ', '')
+    
+    InsertData(
+    'ent.Tb_PVU_Criacao_e_Edicao_de_Leads',
+    'name', @firstName,
+    'email', @email,
+    'phone', @phone,
+    'businessUnitId', '5',
+    'productId', '41',
+    'originId', '17',
+    'campaignId', '143',
+    'campaign', 'crm_oferta-de-uma-nova-cota-apos-contemplacao-e-30-dias-apos-bem-adquirido',
+    'comment', 'Cliente participou da campanha de CRM via SMS onde é ofertado uma nova cota de consórcio após a contemplação e bem adquirido a mais de 30 dias.',
+    'lgpdCompliant', 'True'
+    )
+    ENDIF
+]%%
+ 
+<html>
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKZBP9F');</script>
+<!-- End Google Tag Manager -->
+<title>TYP | Seu futuro na estrada começa aqui! SMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<link rel="icon" type="image/x-icon" href="https://image.crm.consorciodaf.com.br/lib/fe32117371640478731270/m/1/99a7f85f-67f7-476d-aa9e-19b57190642f.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style class="main_style">
+*{
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .sec1 {
+            background-color:#fff; 
+            width: auto;
+            margin:0%;
+            padding:15px 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+ 
+ 
+        .sec2 {
+            background-image: url(https://image.crm.consorciodaf.com.br/lib/fe32117371640478731270/m/1/4a435e17-4a00-49c5-9359-c352aea2d481.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+ 
+        .overlay {
+            background: rgb(0 0 0 / 50%);
+            padding: 160px 0px;
+ 
+        }
+ 
+        .titulo {
+            color:#ffffff;
+            font-size:30px;
+            text-align: center;
+            margin: 0px 35px;
+        }
+ 
+        .paragrafo {
+            color: #ffffff;
+            text-align: center;
+            font-size: 15px;
+            margin: 0px 35px;
+        }
+ 
+        .copy {
+            color: #000;
+            font-size: 11px;
+            text-align: center;
+            padding-top: 15px;
+            margin: 0px 20px;
+            margin: 0px 20px;
+        }
+ 
+        .logo {
+            padding: 0px; 
+            text-align: center; 
+            height: 54px; 
+            width: 222px; 
+            border: 0px;
+            padding-top: 20px;
+        }
+ 
+        .cen {
+            text-align: center;
+            margin:20px 0px;
+        }
+}
+ 
+</style>
+ 
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKZBP9F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="sec1">
+<a class="logo" target="_blank" href="https://www.consorciodaf.com.br/" title="" alias="" conversion="false" data-linkto="https://"><img src="https://image.crm.consorciodaf.com.br/lib/fe32117371640478731270/m/1/13a43900-63d6-4cc7-a76a-e43aae4040d7.jpg" alt="Logo Consórcio DAF" width="120" target="_blank"></a>
+</div>
+<section class="sec2">
+<div class="overlay">
+<h2 class="titulo">É muito bom ter você aqui!</h2>
+<p class="paragrafo">Em breve, um dos nossos especialistas entrará em contato com você.</p>
+</div>
+</section>
+ 
+    <div class="cen">
+<p class="copy">&copy <span id="currentYear">2022 </span> Consórcio DAF | Todos os direitos reservados.</p>
+</div>
+<script>
+        const yearSpan = document.querySelector('#currentYear');
+        const currentYear = new Date();
+        yearSpan.innerText = currentYear.getFullYear();
+</script>
+</body>
+</html>
