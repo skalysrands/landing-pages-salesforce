@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TKZBP9F');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu futuro na estrada começa aqui!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="https://image.crm.consorciodaf.com.br/lib/fe32117371640478731270/m/1/99a7f85f-67f7-476d-aa9e-19b57190642f.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+      * {
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: #353c45;
+      }
+
+      p {
+        color: #656b6f;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+      }
+
+      .centralizar-div {
+        text-align: center;
+      }
+
+      .copywrite {
+        font-size: 10px;
+        margin: 20px 0px;
+      }
+
+      .form-container {
+        background-color: #fff;
+        box-shadow: rgb(0 0 0 / 10%) 0px 30px 60px 0px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #656b6f;
+      }
+
+      .form-container button {
+        background-image: linear-gradient(180deg, #266cab, #00529c);
+        color: white;
+        font-weight: bold;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s;
+      }
+
+      .form-container button:hover {
+        background-color: #00529c;
+      }
+
+      @media screen and (max-width: 600px) {
+        .container {
+          padding: 10px;
+        }
+      }
+
+      form h2 {
+        font-size: 27px;
+        text-align: center;
+        margin: 0px 0 30px;
+      }
+
+      form .form-group {
+        margin-bottom: 15px;
+        position: relative;
+      }
+
+      form label {
+        display: block;
+        font-size: 15px;
+        margin-bottom: 7px;
+      }
+
+      form input,
+      form select {
+        height: 45px;
+        padding: 10px;
+        width: 100%;
+        font-size: 15px;
+        outline: none;
+        background: #fff;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+      }
+
+      form input:focus,
+      form select:focus {
+        border-color: #00529c;
+      }
+
+      input[type="checkbox"] {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        background-color: #eee;
+      }
+
+      form input.error,
+      form select.error {
+        border-color: #f91919;
+        background: #f9f0f1;
+      }
+
+      form small {
+        font-size: 14px;
+        margin-top: 5px;
+        display: block;
+        color: #f91919;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKZBP9F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div>
+      <img src="https://image.crm.consorciodaf.com.br/lib/fe32117371640478731270/m/1/4a435e17-4a00-49c5-9359-c352aea2d481.jpg" alt="" width="100%">
+    </div>
+    <div class="container">
+      <div class="centralizar-div">
+        <h1>Seu futuro na estrada começa aqui!</h1>
+        <p>Insira seus dados para falar com um especialista</p>
+      </div>
+      <div class="form-container">
+        <form action="https://cloud.crm.consorciodaf.com.br/typ-seu-futuro-na-estrada-comeca-aqui-sms">
+          <div class="form-group firstName">
+            <label for="firstName">Nome</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Digite aqui o seu nome">
+          </div>
+          <div class="form-group email">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="exemplo@gmail.com">
+          </div>
+          <div class="form-group phone">
+            <label for="phone">Telefone</label>
+            <input type="tel" name="phone" id="phone" maxlength="15" placeholder="(xx) xxxxx-xxxx" size="20">
+          </div>
+          <div class="form-group" style="font-size: 12px; vertical-align: center;">
+            <input type="checkbox" name="lgpdCompliant" id="lgpdCompliant" data-field-type="Boolean" value="True">&nbsp;Li e concordo com a <a style="color: #000;" href="https://www.consorciodaf.com.br/politica-de-privacidade" target="_blank">Política de Privacidade</a> concedendo o uso dos meus dados*
+          </div>
+          <div class="form-group">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="centralizar-div">
+      <img src="https://image.crm.consorciodaf.com.br/lib/fe32117371640478731270/m/1/13a43900-63d6-4cc7-a76a-e43aae4040d7.jpg" alt="Logo Consórcio Nacional DAF" width="120px">
+      <p class="copywrite">&copy <span id="currentYear">2022</span> Todos os direitos reservados </p>
+    </footer>
+    <script>
+      // Seleciona os elementos do formulário e entrada
+      const form = document.querySelector("form");
+      // Exibe a mensagem de erro
+      const showError = (field, errorText) => {
+        field.classList.add("error");
+        const errorElement = document.createElement("small");
+        errorElement.classList.add("error-text");
+        errorElement.innerText = errorText;
+        field.closest(".form-group").appendChild(errorElement);
+      }
+      // Remove a mensagem de erro
+      const clearError = (field) => {
+        field.classList.remove("error");
+        const errorText = field.closest(".form-group").querySelector(".error-text");
+        if (errorText) {
+          errorText.remove();
+        }
+      }
+      // Envio do formulário
+      const handleFormData = (e) => {
+        e.preventDefault();
+        // Recupera os elementos de entrada
+        const firstNameInput = document.getElementById("firstName");
+        const emailInput = document.getElementById("email");
+        const phoneInput = document.getElementById("phone");
+        const lgpdCompliantInput = document.getElementById("lgpdCompliant");
+        // Obtem valores cortados de campos de entrada
+        const firstName = firstNameInput.value.trim();
+        const email = emailInput.value.trim();
+        const phone = phoneInput.value.trim();
+        const lgpdCompliant = lgpdCompliantInput.checked;
+        // Valida campo email
+        const emailPattern = /^[^ ]+@(?!yahoo\.combr$|naopossui\.com\.br|o2\.net\.br|hortmail\.com|email\.com|email\.com\.br|outllook\.com|iclod\.com|htmail\.com|hottmail\.com|gmail\.bom|gmail\.comd|3enet\.com\.br|homail\.com|yhaoo\.com\.combr|hotmail\.combr|nao\.com|gemail\.com|88gmail\.com|outloock\.com|gm\.com|hotmail\.co\.uk|yhoo\.com\.br|yaol\.com\.br|naopossuo\.com\.br|xxxxx\.com\.br|xxx\.com\.br|nao\.com\.br|201127\.hotmail\.com|gmail\.comj|gamail\.com|gail\.com|yahoo\.combr|icluod\.com|hotrmail\.com|1986icloud\.com|hotmail\.it|hotmail\.comotmail\.com|3hagro\.com\.br|613gmail\.com|gnail)[^ ]+\.[a-z]{2,3}$/;
+        // Valida campo telefone
+        const phonePattern = /^(?!^(\d)\1+$)\(\d{2}\) \d{5}-\d{4}$/;
+        // Limpa as mensagens de erro
+        document.querySelectorAll(".form-group .error").forEach(field => field.classList.remove("error"));
+        document.querySelectorAll(".error-text").forEach(errorText => errorText.remove());
+        // Validação de erros
+        let hasError = false;
+        if (firstName === "") {
+          showError(firstNameInput, "Digite o seu nome");
+          hasError = true;
+        } else {
+          clearError(firstNameInput);
+        }
+        if (!emailPattern.test(email)) {
+          showError(emailInput, "Insira um e-mail válido");
+          hasError = true;
+        } else {
+          clearError(emailInput);
+        }
+        if (!phonePattern.test(phone)) {
+          showError(phoneInput, "Insira um telefone válido");
+          hasError = true;
+        } else {
+          clearError(phoneInput);
+        }
+        if (!lgpdCompliant) {
+          showError(lgpdCompliantInput.parentElement, "É necessário concordar com a Política de Privacidade");
+          hasError = true;
+        } else {
+          clearError(lgpdCompliantInput.parentElement);
+        }
+        // Envia o formulário apenas se não houver erros
+        if (!hasError) {
+          form.submit();
+        }
+      }
+      // Tratamento de evento de envio de formulário
+      form.addEventListener("submit", handleFormData);
+    </script>
+    <script>
+      var phone = document.getElementById("phone");
+      phone.addEventListener("input", () => {
+        var cleanValue = phone.value.replace(/\D/g, "").substring(0, 11);
+        var numbersArray = cleanValue.split("");
+        var formattedNumber = "";
+        if (numbersArray.length > 0) {
+          formattedNumber += `(${numbersArray.slice(0, 2).join("")})`;
+        }
+        if (numbersArray.length > 2) {
+          formattedNumber += ` ${numbersArray.slice(2, 7).join("")}`;
+        }
+        if (numbersArray.length > 7) {
+          formattedNumber += `-${numbersArray.slice(7, 11).join("")}`;
+        }
+        phone.value = formattedNumber;
+      });
+      phone.addEventListener("keydown", (e) => {
+        if (e.code === "Backspace") {
+          phone.value = phone.value.slice(0, -1);
+        }
+      });
+    </script>
+    <script>
+      const yearSpan = document.querySelector('#currentYear');
+      const currentYear = new Date();
+      yearSpan.innerText = currentYear.getFullYear();
+    </script>
+  </body>
+</html>
